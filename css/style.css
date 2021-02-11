@@ -296,7 +296,7 @@ img {
 }
 
 .check-input:focus + .checkbox-label::before {
-  outline: var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .agreement-link {
