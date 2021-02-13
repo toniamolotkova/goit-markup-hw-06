@@ -291,6 +291,7 @@ img {
 .check-input:checked + .checkbox-label::before {
   background-image: url(../images/svg-icons/check.svg);
   background-color: var(--accent-color);
+  background-origin: border-box;
 
   border: none;
 }
